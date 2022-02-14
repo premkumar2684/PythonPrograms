@@ -1,0 +1,17 @@
+#GET http://reqres.in/api/users/3
+#
+#OPTIONS http://restful.dev/wp-json/wp/v2/posts
+
+#OPTIONS http://reqres.in/api/users
+
+DELETE http://reqres.in/api/users/3
+POST http://reqres.in/api/users
+Content-Type: application/json
+{
+    "id": 7,
+    "email": "emma.wong@reqres.in",
+    "first_name": "prem",
+    "last_name": "Wong",
+    "avatar": "https://reqres.in/img/faces/3-image.jpg"
+
+}
